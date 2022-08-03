@@ -1,0 +1,25 @@
+header {
+	height: 110px;
+	margin-left: 50px;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+
+header a img {
+	height: 120px;
+	padding-left: 30;
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		height: 100px;
+		
+	}
+
+	header a img {
+		height: 100px;
+		padding-left: 0;
+	}
+}
+	

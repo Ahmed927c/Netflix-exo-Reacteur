@@ -1,0 +1,31 @@
+body{
+	background:#000;
+	
+}
+.category {
+	color: #fff;
+	margin-top: 20px;
+		overflow-x: scroll;
+}
+
+.carousel{
+	display: flex;
+	overflow-x: scroll;
+	overflow-y:hidden;
+	height: 160px;
+	align-items: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.carousel {
+		height: 100px;
+	}
+
+	img.film-item {
+		width: 150px;
+		height: 100px;
+	}
+}
+	
